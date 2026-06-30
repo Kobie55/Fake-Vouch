@@ -36,8 +36,8 @@ def load_lines(file_path):
         return file.read().splitlines()
 
 def send_messages(config, tokens, messages):
-    user_id = config['user_id']
-    channel_id = config['channel_id']
+    user_id = config['1462977754654969927']
+    channel_id = config['1519949033366491156']
     wait_time = config['wait_time']
     message_count = config['message_count']
     vouch_format = ['vouch', 'rep', '+vouch', '+rep']
